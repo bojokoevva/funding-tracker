@@ -1,0 +1,59 @@
+/* General Page Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%); /* Soft gradient */
+  color: #333;
+  margin: 0;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+/* App Container */
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff; /* Clean content area */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); /* Softer shadow */
+  border-radius: 16px;
+  backdrop-filter: blur(5px); /* Optional: subtle glass effect */
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #6a5acd; /* Pastel purple */
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #555;
+  font-size: 1.8rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Chart Containers */
+.chart-container {
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #f9f9ff; /* Soft pastel block background */
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Canvas Styling (Chart background) */
+canvas {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Smooth transitions for better UX */
+* {
+  transition: all 0.3s ease-in-out;
+}
+
